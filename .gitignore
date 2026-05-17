@@ -1,0 +1,36 @@
+# Secrets — NEVER commit these
+.env
+*.env
+*.pem
+*.key
+
+# Logs
+logs/*.log
+logs/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Railway
+.railway/
